@@ -1,0 +1,203 @@
+.inforFrame {
+  width: 1203px;
+  height: 906px;
+  position: relative;
+  border-radius: 20px;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.fullName,
+.inputFullName {
+  position: relative;
+  z-index: 1;
+}
+.fullName {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: Rubik;
+  color: #000;
+  text-align: left;
+}
+.inputFullName {
+  border: 0;
+  outline: 0;
+  background-color: rgba(217, 217, 217, 0.4);
+  width: 1036px;
+  height: 80px;
+  border-radius: 15px;
+  max-width: 100%;
+}
+.role {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: Rubik;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  min-width: 73px;
+}
+.email,
+.inputRole,
+.role {
+  position: relative;
+  z-index: 1;
+}
+.inputRole {
+  border: 0;
+  outline: 0;
+  background-color: rgba(217, 217, 217, 0.4);
+  align-self: stretch;
+  flex: 1;
+  border-radius: 15px;
+  min-width: 250px;
+}
+.email {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: Rubik;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  min-width: 92px;
+}
+.inputEmail {
+  border: 0;
+  outline: 0;
+  background-color: rgba(217, 217, 217, 0.4);
+  align-self: stretch;
+  height: 80px;
+  border-radius: 15px;
+  min-width: 250px;
+}
+.birthday,
+.inputBirthday,
+.inputEmail {
+  position: relative;
+  z-index: 1;
+}
+.birthday {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: Rubik;
+  color: #000;
+  text-align: left;
+}
+.inputBirthday {
+  border: 0;
+  outline: 0;
+  background-color: rgba(217, 217, 217, 0.4);
+  align-self: stretch;
+  height: 80px;
+  border-radius: 15px;
+  min-width: 250px;
+}
+.roleParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.buttonSaveIcon {
+  height: 80px;
+  width: 1036px;
+  position: relative;
+  border-radius: 25px;
+  display: none;
+  max-width: 100%;
+}
+.save1 {
+  width: 124px;
+  position: relative;
+  font-size: 35px;
+  display: inline-block;
+  font-family: Rubik;
+  color: #fff;
+  text-align: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent,
+.menuInfor,
+.save {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.save {
+  cursor: pointer;
+  border: 0;
+  padding: 18px 20px 19px 50px;
+  background-color: #00173d;
+  align-self: stretch;
+  border-radius: 25px;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.save:hover {
+  background-color: #334a70;
+}
+.frameParent,
+.menuInfor {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 1036px;
+  gap: 39px;
+}
+.menuInfor {
+  margin: 0;
+  align-self: stretch;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 57px 53px 98px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+@media screen and (max-width: 1275px) {
+  .menuInfor {
+    padding: 37px 26px 64px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .birthday,
+  .email,
+  .fullName,
+  .role {
+    font-size: 29px;
+  }
+  .save1 {
+    font-size: 28px;
+  }
+  .frameParent {
+    gap: 19px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .birthday,
+  .email,
+  .fullName,
+  .role {
+    font-size: 22px;
+  }
+  .save1 {
+    font-size: 21px;
+  }
+  .menuInfor {
+    padding-top: 24px;
+    padding-bottom: 42px;
+    box-sizing: border-box;
+  }
+}

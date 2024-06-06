@@ -1,0 +1,271 @@
+.maskGroupIcon {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  object-fit: cover;
+}
+.maskGroupWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 27px 0 26px;
+}
+.admin,
+.nguyenThaiSon {
+  position: relative;
+  display: inline-block;
+}
+.nguyenThaiSon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #000;
+  text-align: center;
+}
+.admin {
+  text-decoration: none;
+  font-weight: 300;
+  color: inherit;
+  min-width: 52px;
+}
+.adminWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 51px 0 50px;
+}
+.nguyenThaiSonParent {
+  flex-direction: column;
+  gap: 4px;
+}
+.frameParent,
+.nguyenThaiSonParent,
+.sidebarInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex-direction: column;
+  gap: 12px;
+}
+.sidebarInner {
+  flex-direction: row;
+  padding: 0 39px;
+}
+.changePasswordIcon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+.changePasswordWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+}
+.changePassword {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #7a7e86;
+  text-align: left;
+}
+.frameContainer,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  justify-content: flex-start;
+  gap: 13px;
+}
+.frameWrapper {
+  justify-content: flex-end;
+  padding: 0 8px;
+}
+.inforIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.information {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 107px;
+  z-index: 1;
+}
+.infor {
+  cursor: pointer;
+  border: 0;
+  padding: 18px 58px 15px;
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.boxarrowrightIcon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.boxarrowrightWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.logOut {
+  text-decoration: none;
+  position: relative;
+  font-size: 18px;
+  font-family: Poppins;
+  color: #7a7e86;
+  text-align: left;
+  display: inline-block;
+  min-width: 69px;
+}
+.frameDiv {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 13px;
+}
+.frameButton,
+.frameDiv,
+.frameGroup,
+.inforParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0 20px;
+  background-color: transparent;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameGroup,
+.inforParent {
+  flex-direction: column;
+}
+.inforParent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 10px;
+}
+.frameGroup {
+  width: 232px;
+  align-items: flex-end;
+  gap: 25px;
+}
+.sidebar {
+  width: 385px;
+  border-radius: 30px;
+  background-color: #fff;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 50px 61px 603px;
+  gap: 55px;
+  max-width: 100%;
+}
+.infomation,
+.menuInforWrapper,
+.sidebar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.menuInforWrapper {
+  width: 1203px;
+  flex-direction: column;
+  padding: 59px 0 0;
+  max-width: 100%;
+}
+.infomation {
+  width: 100%;
+  position: relative;
+  background-color: #e8f1f2;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 51px 35px 42px;
+  gap: 41px;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  font-size: 16px;
+  color: #7a7e86;
+  font-family: Poppins;
+}
+@media screen and (max-width: 1625px) {
+  .infomation {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .sidebar {
+    padding-top: 32px;
+    padding-bottom: 392px;
+    box-sizing: border-box;
+  }
+  .menuInforWrapper {
+    padding-top: 38px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .sidebar {
+    padding-top: 21px;
+    padding-bottom: 255px;
+    box-sizing: border-box;
+  }
+  .menuInforWrapper {
+    padding-top: 25px;
+    box-sizing: border-box;
+  }
+  .infomation {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sidebar {
+    gap: 27px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

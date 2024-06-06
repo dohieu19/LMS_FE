@@ -1,0 +1,86 @@
+.loginForm {
+  width: 1139px;
+  height: 1001px;
+  position: relative;
+  border-radius: 50px;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.checkBoxWrapper {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 16px;
+  max-width: 100%;
+}
+.checkBoxWrapper,
+.login,
+.loginFormParent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.loginFormParent {
+  flex: 1;
+  border-radius: 50px;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 25px 42px 174px 61px;
+  gap: 29px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.login {
+  width: 100%;
+  position: relative;
+  background-color: #e8f1f2;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: 58px 20px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1150px) {
+  .loginFormParent {
+    padding-left: 30px;
+    padding-right: 21px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .loginFormParent {
+    padding-left: 21px;
+    padding-right: 21px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .loginFormParent {
+    padding-top: 20px;
+    padding-bottom: 113px;
+    box-sizing: border-box;
+  }
+  .login {
+    gap: 36px;
+    padding-left: 147px;
+    padding-right: 147px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .loginFormParent {
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login {
+    height: auto;
+    gap: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

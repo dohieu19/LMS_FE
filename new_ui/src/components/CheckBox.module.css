@@ -1,0 +1,37 @@
+.checkboxRemember {
+  margin: 0;
+  height: 33px;
+  width: 39px;
+  position: relative;
+}
+.rememberMyPreference {
+  position: relative;
+}
+.checkBox,
+.rememberMyPreferenceWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rememberMyPreferenceWrapper {
+  flex-direction: column;
+  padding: 5px 0 0;
+}
+.checkBox {
+  flex-direction: row;
+  gap: 18px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Trykker;
+}
+@media screen and (max-width: 450px) {
+  .rememberMyPreference {
+    font-size: 19px;
+  }
+  .checkBox {
+    flex-wrap: wrap;
+  }
+}

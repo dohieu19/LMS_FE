@@ -1,0 +1,320 @@
+.otpBackground {
+  width: 1139px;
+  height: 1001px;
+  position: relative;
+  border-radius: 50px;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.logoIcon {
+  height: 184px;
+  width: 181px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.logoWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 6px 0 0;
+}
+.sentOtpOn {
+  position: relative;
+  line-height: 24px;
+  z-index: 1;
+}
+.sentOtpOnYourEmailWrapper {
+  width: 1006px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.otp11 {
+  border: 2px solid rgba(128, 152, 249, 0.5);
+  outline: 0;
+  background-color: rgba(128, 152, 249, 0.1);
+  height: 100%;
+  flex: 1;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  align-items: flex-start;
+  padding: 20px 22px;
+  font-family: Inter;
+  font-size: 32px;
+  color: rgba(45, 49, 166, 0.2);
+  min-width: 63px;
+  max-width: 64px;
+}
+.inputOtp,
+.otp11,
+.otp2,
+.otp3,
+.otp4,
+.otp5,
+.otp6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.otp2,
+.otp3,
+.otp4,
+.otp5,
+.otp6 {
+  border: 2px solid rgba(128, 152, 249, 0.5);
+  outline: 0;
+  background-color: rgba(128, 152, 249, 0.1);
+  flex: 1;
+  border-radius: 10px;
+  align-items: flex-start;
+  padding: 17px 22px;
+  font-family: Inter;
+  font-size: 32px;
+  color: rgba(45, 49, 166, 0.2);
+  min-width: 63px;
+  max-width: 64px;
+}
+.inputOtp {
+  width: 484px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 0 0 84px;
+  position: relative;
+  gap: 20px;
+  max-width: 100%;
+}
+.resentOtp {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: Montserrat;
+  color: #8098f9;
+  text-align: center;
+  display: inline-block;
+  min-width: 98px;
+}
+.frameOtp,
+.resent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameOtp {
+  width: 674px;
+  padding: 0 20px 95px;
+  box-sizing: border-box;
+  gap: 25px;
+  max-width: 100%;
+  z-index: 2;
+}
+.frameOtpWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.buttonSubmitIcon {
+  height: 80px;
+  width: 1036px;
+  position: relative;
+  border-radius: 25px;
+  display: none;
+  max-width: 100%;
+}
+.submit {
+  height: 43px;
+  position: relative;
+  font-size: 32px;
+  display: inline-block;
+  font-family: Rubik;
+  color: #fff;
+  text-align: left;
+  min-width: 122px;
+  z-index: 1;
+}
+.buttonSubmit,
+.frameContainer,
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.buttonSubmit {
+  cursor: pointer;
+  border: 0;
+  padding: 20px 20px 17px 40px;
+  background-color: #00173d;
+  border-radius: 25px;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 1;
+  margin-top: -20px;
+}
+.buttonSubmit:hover {
+  background-color: #334a70;
+}
+.frameContainer,
+.frameGroup {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameGroup {
+  gap: 84px;
+}
+.backToLogin {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: 32px;
+  font-family: Rubik;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.backToLoginPageWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 43px;
+  max-width: 100%;
+}
+.frameParent,
+.otp,
+.otp1,
+.otpBackgroundParent {
+  display: flex;
+  align-items: flex-start;
+}
+.otpBackgroundParent {
+  width: 1139px;
+  border-radius: 50px;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 21px 51px 255px 52px;
+  box-sizing: border-box;
+  gap: 84px;
+  max-width: 100%;
+}
+.otp,
+.otp1 {
+  overflow: hidden;
+  flex-direction: row;
+}
+.otp1 {
+  margin-left: -8px;
+  width: 1769px;
+  background-color: #e8f1f2;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 61px 20px;
+  box-sizing: border-box;
+  debug_commit: bf4bc93;
+  max-width: 103%;
+  text-align: left;
+  font-size: 32px;
+  color: #00173d;
+  font-family: Rubik;
+}
+.otp {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  justify-content: flex-start;
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 1150px) {
+  .frameGroup {
+    gap: 42px;
+  }
+  .otpBackgroundParent {
+    gap: 42px;
+    padding-left: 26px;
+    padding-right: 25px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .sentOtpOn {
+    line-height: 19px;
+  }
+  .backToLogin,
+  .sentOtpOn,
+  .submit {
+    font-size: 26px;
+  }
+  .otp1,
+  .otpBackgroundParent {
+    padding-top: 20px;
+    padding-bottom: 166px;
+    box-sizing: border-box;
+  }
+  .otp1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .inputOtp {
+    padding-left: 42px;
+    box-sizing: border-box;
+  }
+  .frameGroup,
+  .frameParent {
+    gap: 21px;
+  }
+  .otpBackgroundParent {
+    gap: 21px;
+    padding-bottom: 108px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sentOtpOn {
+    line-height: 14px;
+  }
+  .backToLogin,
+  .sentOtpOn,
+  .submit {
+    font-size: 19px;
+  }
+  .otp1 {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    box-sizing: border-box;
+  }
+}

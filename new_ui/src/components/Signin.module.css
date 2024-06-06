@@ -1,0 +1,58 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.siginButtonIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 25px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  opacity: 0;
+}
+.siginButtonIcon.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.signIn {
+  position: absolute;
+  top: 22.5%;
+  left: 45.46%;
+  font-size: 35px;
+  display: inline-block;
+  font-family: Rubik;
+  color: #fff;
+  text-align: left;
+  min-width: 124px;
+  z-index: 1;
+}
+.signin {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 80px;
+  position: relative;
+  z-index: 1;
+}
+@media screen and (max-width: 1025px) {
+  .signIn {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .signIn {
+    font-size: 21px;
+  }
+}

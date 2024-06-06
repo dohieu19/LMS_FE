@@ -1,0 +1,330 @@
+.gridIcon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard {
+  position: relative;
+  display: inline-block;
+  min-width: 101px;
+}
+.pageTitle,
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title {
+  gap: 20px;
+}
+.pageTitle {
+  padding: 0 22px;
+}
+.archiveIcon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.linkIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.classes {
+  position: relative;
+  display: inline-block;
+  min-width: 70px;
+}
+.linkPairs,
+.linkPairsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.linkPairs {
+  gap: 21px;
+}
+.linkPairsWrapper {
+  padding: 0 22px;
+}
+.userManagementChild {
+  height: 60px;
+  width: 250px;
+  position: relative;
+  border-radius: 18px;
+  background-color: #1294f2;
+  display: none;
+}
+.peopleIcon {
+  height: 25px;
+  width: 26.5px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.userManagement1 {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #fff;
+  text-align: left;
+  z-index: 1;
+}
+.userManagement {
+  cursor: pointer;
+  border: 0;
+  padding: 17px 9px 16px 22px;
+  background-color: #1294f2;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 23.4px;
+  white-space: nowrap;
+}
+.userManagement:hover {
+  background-color: #2badff;
+}
+.calendar2weekIcon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.calendar2weekWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.schedule {
+  position: relative;
+  display: inline-block;
+  min-width: 84px;
+}
+.frameParent {
+  flex-direction: row;
+  gap: 21px;
+}
+.frameParent,
+.links,
+.linksInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.linksInner {
+  flex-direction: row;
+  padding: 0 22px;
+}
+.links {
+  flex-direction: column;
+  gap: 16.5px;
+}
+.actionIcons1 {
+  width: 25px;
+  height: 21.9px;
+  position: relative;
+}
+.actionIconsPrimary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.6px 0 0;
+}
+.grades {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+}
+.actionIcons,
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.actionIcons {
+  gap: 22px;
+}
+.actions {
+  padding: 0 21px;
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  top: 4.7px;
+  left: 8.6px;
+  width: 7.8px;
+  height: 9.4px;
+}
+.vectorIcon1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.downloadsIconContainer {
+  width: 25px;
+  height: 17.2px;
+  position: relative;
+}
+.downloadsIconContainerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5.1px 0 0;
+}
+.downloads {
+  position: relative;
+  display: inline-block;
+  min-width: 101px;
+}
+.downloadsIcon,
+.downloadsIconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.downloadsIcon {
+  gap: 19px;
+}
+.downloadsIconWrapper {
+  padding: 0 22px;
+}
+.gearIcon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.gearWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+}
+.settings {
+  position: relative;
+  display: inline-block;
+  min-width: 73px;
+}
+.actions1,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  gap: 22px;
+}
+.actions1 {
+  padding: 0 22px;
+}
+.trashIcon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.trashWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.trash {
+  position: relative;
+  display: inline-block;
+  min-width: 50px;
+}
+.actions2,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  gap: 18px;
+}
+.actions2 {
+  padding: 0 22px;
+}
+.boxarrowrightIcon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.boxarrowrightWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.logOut {
+  position: relative;
+  font-size: 18px;
+  font-family: Poppins;
+  color: #7a7e86;
+  text-align: left;
+  display: inline-block;
+  min-width: 69px;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex-direction: row;
+  gap: 19px;
+}
+.actions3,
+.content,
+.frameButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.actions3 {
+  flex-direction: row;
+  padding: 0 24px;
+}
+.content {
+  flex-direction: column;
+  gap: 33px;
+  text-align: left;
+  font-size: 18px;
+  color: #7a7e86;
+  font-family: Poppins;
+}
+@media screen and (max-width: 450px) {
+  .content {
+    gap: 16px;
+  }
+}

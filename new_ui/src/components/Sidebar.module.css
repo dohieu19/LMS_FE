@@ -1,0 +1,325 @@
+.sidebarBackground {
+  width: 385px;
+  height: 1024px;
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.actions {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 40px 40px;
+}
+.vectorIcon {
+  width: 25px;
+  height: 21.9px;
+  position: relative;
+  z-index: 1;
+}
+.downloadButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.6px 0 0;
+}
+.grades {
+  text-decoration: none;
+  position: relative;
+  font-size: 18px;
+  font-family: Poppins;
+  color: #7a7e86;
+  text-align: left;
+  display: inline-block;
+  min-width: 66px;
+  z-index: 1;
+}
+.downloadsIcon,
+.downloadsIconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.downloadsIcon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  gap: 22px;
+}
+.downloadsIconWrapper {
+  padding: 0 22px 0 19px;
+}
+.cloudarrowdownIcon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.downloadButton1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+}
+.downloads {
+  text-decoration: none;
+  position: relative;
+  font-size: 18px;
+  font-family: Poppins;
+  color: #7a7e86;
+  text-align: left;
+  display: inline-block;
+  min-width: 101px;
+  z-index: 1;
+}
+.trashHeader,
+.trashHeaderWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.trashHeader {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  gap: 19px;
+}
+.trashHeaderWrapper {
+  padding: 0 20px;
+}
+.settingsChild {
+  height: 60px;
+  width: 232px;
+  position: relative;
+  border-radius: 18px;
+  background-color: #1294f2;
+  display: none;
+}
+.gearIcon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.settingsButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+}
+.settings1 {
+  text-decoration: none;
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 74px;
+  z-index: 1;
+}
+.settings {
+  cursor: pointer;
+  border: 0;
+  padding: 15px 20px 18px;
+  background-color: #1294f2;
+  align-self: stretch;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 22px;
+  z-index: 1;
+}
+.trashIcon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.trashWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 20px 0 0;
+}
+.trash {
+  text-decoration: none;
+  position: relative;
+  font-size: 18px;
+  font-family: Poppins;
+  color: #7a7e86;
+  text-align: left;
+  display: inline-block;
+  min-width: 50px;
+  z-index: 1;
+}
+.frameGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex-direction: row;
+  gap: 18px;
+}
+.downloadsHeader,
+.frameGroup,
+.frameParent,
+.settingsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.downloadsHeader {
+  flex-direction: row;
+  padding: 0 20px;
+}
+.frameParent,
+.settingsParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 15px;
+}
+.frameParent {
+  padding: 0 0 10px;
+  gap: 18px;
+}
+.boxarrowrightIcon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.boxarrowrightWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 19px 0 0;
+}
+.logOut {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 69px;
+  z-index: 1;
+}
+.frameContainer,
+.user {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 19px;
+}
+.user {
+  align-self: stretch;
+  padding: 0 22px 0 40px;
+}
+.actions1,
+.user,
+.userName {
+  display: flex;
+  align-items: flex-start;
+}
+.userName {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 23px;
+}
+.actions1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 1px 0 0;
+  text-align: left;
+  font-size: 18px;
+}
+.sidebar {
+  width: 385px;
+  border-radius: 30px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 50px 92px 217px 60px;
+  box-sizing: border-box;
+  gap: 43px;
+  min-width: 385px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: 16px;
+  color: #7a7e86;
+  font-family: Poppins;
+}
+@media screen and (max-width: 1625px) {
+  .sidebar {
+    padding-top: 21px;
+    padding-bottom: 92px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .sidebar {
+    padding-top: 21px;
+    padding-bottom: 92px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .sidebar {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .sidebar {
+    padding-top: 32px;
+    padding-bottom: 141px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .sidebar {
+    padding-top: 32px;
+    padding-bottom: 141px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .sidebar {
+    gap: 21px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,110 @@
+.background {
+  height: 1068px;
+  width: 1677px;
+  position: relative;
+  border-radius: 50px;
+  background-color: #e8f1f2;
+  display: none;
+  max-width: 100%;
+}
+.footer,
+.footerContent,
+.settings,
+.settings1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerContent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 47.4px;
+  max-width: 100%;
+}
+.footer,
+.settings,
+.settings1 {
+  box-sizing: border-box;
+}
+.footer {
+  width: 1041px;
+  flex-direction: column;
+  padding: 100px 0 0;
+  min-width: 1041px;
+  max-width: 100%;
+}
+.settings,
+.settings1 {
+  background-color: #e8f1f2;
+  flex-direction: row;
+}
+.settings1 {
+  flex: 1;
+  border-radius: 50px;
+  overflow: hidden;
+  padding: 0 0 44px;
+  gap: 51px;
+  max-width: 100%;
+}
+.settings {
+  width: 100%;
+  position: relative;
+  flex-wrap: wrap;
+  padding: 25px 25px 24px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1625px) {
+  .settings {
+    gap: 25px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .footerContent {
+    gap: 24px;
+  }
+  .settings1 {
+    gap: 25px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .settings {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .footer {
+    flex: 1;
+  }
+  .settings1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .settings {
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer {
+    min-width: 100%;
+  }
+  .settings1 {
+    padding-bottom: 29px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .footer,
+  .settings {
+    box-sizing: border-box;
+  }
+  .footer {
+    padding-top: 65px;
+  }
+  .settings {
+    padding-left: 20px;
+  }
+}

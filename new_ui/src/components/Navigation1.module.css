@@ -1,0 +1,64 @@
+.maskGroupIcon {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.maskGroupWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 27px 0 26px;
+}
+.admin,
+.nguyenThaiSon {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.nguyenThaiSon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #000;
+  text-align: center;
+}
+.admin {
+  text-decoration: none;
+  font-weight: 300;
+  color: inherit;
+  min-width: 52px;
+}
+.navigation,
+.nguyenThaiSonParent,
+.userStatus {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.userStatus {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 27px 0 50px;
+}
+.navigation,
+.nguyenThaiSonParent {
+  flex-direction: column;
+}
+.nguyenThaiSonParent {
+  align-self: stretch;
+  gap: 4px;
+}
+.navigation {
+  gap: 12px;
+  text-align: center;
+  font-size: 16px;
+  color: #7a7e86;
+  font-family: Poppins;
+}

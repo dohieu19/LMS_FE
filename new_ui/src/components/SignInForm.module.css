@@ -1,0 +1,64 @@
+.logoIcon {
+  height: 184px;
+  width: 181px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.logoWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 0 36px;
+}
+.signIn {
+  position: relative;
+  z-index: 1;
+}
+.signInWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 0 35px;
+}
+.email1 {
+  position: relative;
+  display: inline-block;
+  min-width: 92px;
+}
+.email,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.email {
+  gap: 20px;
+  z-index: 1;
+  font-size: 36px;
+}
+.frameParent {
+  gap: 29px;
+  text-align: left;
+  font-size: 50px;
+  color: #000;
+  font-family: Rubik;
+}
+@media screen and (max-width: 1025px) {
+  .email1,
+  .signIn {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .email1,
+  .signIn {
+    font-size: 22px;
+  }
+}

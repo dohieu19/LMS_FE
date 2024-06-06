@@ -1,0 +1,10 @@
+.email {
+  border: 0;
+  outline: 0;
+  background-color: rgba(217, 217, 217, 0.4);
+  align-self: stretch;
+  height: 80px;
+  position: relative;
+  border-radius: 15px;
+  min-width: 250px;
+}
